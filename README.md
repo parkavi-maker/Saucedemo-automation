@@ -76,3 +76,51 @@ Application should display:
 
 Epic sadface: Sorry, this user has been locked out.
 
+Project Structure
+
+sauseDemo/
+
+├── ValidCheckout.java
+
+├── Lockeduser.java
+
+├── screenshots/
+
+│ ├── LoginPage.png
+
+│ ├── ProductsAdded.png
+
+│ ├── CartPage.png
+
+│ ├── CheckoutInformation.png
+
+│ ├── OrderSuccess.png
+
+│ └── LockedUserError.png
+
+└── README.md
+
+How to Execute
+Scenario 1
+Run:
+ValidCheckout.java
+Expected Output:
+Order completed successfully
+________________________________________
+Scenario 2
+Run:
+Lockeduser.java
+Expected Output:
+Flow 2 Passed
+________________________________________
+Assertions Used
+Scenario 1
+Verify products added to cart:
+•	Sauce Labs Backpack
+•	Sauce Labs Bike Light
+Verify order success message:
+Thank you for your order!
+Scenario 2
+Verify locked user error message:
+Epic sadface: Sorry, this user has been locked out.
+________________________________________
